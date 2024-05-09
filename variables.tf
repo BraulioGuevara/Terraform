@@ -10,9 +10,7 @@ variable "instance_type" {
     default = "t2.nano"
 }
 
-
-
-variable "network_name" {
+variable "vpc_name" {
     type = string
     description = "nombre de la red"
     sensitive = true
